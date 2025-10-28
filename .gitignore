@@ -1,0 +1,13 @@
+# .NET Core
+**/[Bb]in/
+**/[Oo]bj/
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+*.sln.DotSettings.user
+
+# Mac
+.DS_Store
