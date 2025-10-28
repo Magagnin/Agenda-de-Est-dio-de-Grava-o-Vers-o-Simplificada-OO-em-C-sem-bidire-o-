@@ -1,1 +1,6 @@
+# 1. Cria o arquivo de solution
+dotnet new sln -n EstudioGravacao
 
+# 2. Adiciona os dois projetos à solution
+dotnet sln add src/EstudioGravacao.Domain/EstudioGravacao.Domain.csproj
+dotnet sln add tests/EstudioGravacao.Tests/EstudioGravacao.Tests.csproj
